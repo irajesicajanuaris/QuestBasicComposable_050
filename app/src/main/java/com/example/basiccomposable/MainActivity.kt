@@ -47,7 +47,12 @@ fun BasicComposable(ira: Modifier = Modifier) {
             fontSize = 50.sp,
             color = Color.Black,
             fontWeight = FontWeight.ExtraBold)
+
+        Text(text = "Ini adalah halaman Login",
+            )
     }
+
+
 }
 
 @Composable
