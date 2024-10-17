@@ -66,7 +66,10 @@ fun BasicComposable(ira: Modifier = Modifier) {
             modifier = Modifier.size(200.dp)
                 .padding(30.dp))
 
-        Text(text = "Nama: ")
+        Text(text = "Nama: ",
+            style = TextStyle(
+                fontSize = 25.sp,
+                fontStyle = FontStyle.Italic))
 
     }
 
