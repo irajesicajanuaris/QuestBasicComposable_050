@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.basiccomposable.ui.theme.BasicComposableTheme
@@ -34,6 +35,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun BasicComposable(ira: Modifier = Modifier) {
+    Column (verticalArrangement = Arrangement.Center,
+        modifier = Modifier.fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    )
 }
 
 @Composable
