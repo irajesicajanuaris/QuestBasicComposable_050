@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -14,6 +15,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.painter.Painter
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -53,8 +56,14 @@ fun BasicComposable(ira: Modifier = Modifier) {
         Text(text = "Ini adalah halaman Login",
             style = TextStyle(
                 fontSize = 20.sp,
-                fontStyle = FontStyle.Italic)
+                fontStyle = FontStyle.Italic))
+
+        Image(
+            Painter = painterResource(id = R.drawable.umy),
+            contentDescription = null,
+
         )
+
     }
 
 
