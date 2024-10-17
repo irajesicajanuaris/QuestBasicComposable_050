@@ -81,6 +81,11 @@ fun BasicComposable(ira: Modifier = Modifier) {
            style = TextStyle(
                fontSize = 30.sp,
                fontWeight = FontWeight.Bold))
+
+        Image(
+            painter =  painterResource(id = R.drawable.iraa),
+            contentDescription = null
+        )
     }
 
 
