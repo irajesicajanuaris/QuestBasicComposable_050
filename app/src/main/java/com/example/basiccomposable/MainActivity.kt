@@ -64,6 +64,7 @@ fun BasicComposable(ira: Modifier = Modifier) {
             painter = painterResource(id = R.drawable.logoumy),
             contentDescription = null,
             modifier = Modifier.size(200.dp)
+                .padding(30.dp)
         )
 
     }
