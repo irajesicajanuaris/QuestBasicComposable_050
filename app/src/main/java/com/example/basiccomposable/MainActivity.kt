@@ -71,7 +71,12 @@ fun BasicComposable(ira: Modifier = Modifier) {
                 fontSize = 25.sp,
                 fontStyle = FontStyle.Italic))
 
-        Text(text = "Ira Jesica Januari S",)
+        Text(text = "Ira Jesica Januari S",
+            style = TextStyle(
+                fontSize = 20.sp,
+                fontStyle = FontStyle.Italic,
+                color = Color.Magenta
+            ))
     }
 
 
