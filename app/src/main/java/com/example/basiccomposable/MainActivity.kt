@@ -38,7 +38,10 @@ fun BasicComposable(ira: Modifier = Modifier) {
     Column (verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
-    )
+    ){
+        Text(text = "Login",
+            )
+    }
 }
 
 @Composable
